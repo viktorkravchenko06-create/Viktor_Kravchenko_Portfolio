@@ -1,16 +1,34 @@
-# React + Vite
+# Viktor Kravchenko Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Особистий сайт-портфоліо мультимедійного дизайнера Віктора Кравченка на `React + Vite`.
 
-Currently, two official plugins are available:
+## Що всередині
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- повноекранний hero-блок з аватаром та intro
+- sticky-навігація між секціями (Home / Portfolio / Contact)
+- секція з проєктами (картки робіт)
+- форма зворотного зв’язку та швидкі контакти (Telegram / Email)
+- адаптивна верстка для мобільних і десктопів
 
-## React Compiler
+## Технології
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- `React 19`
+- `Vite 8`
+- `ESLint 9`
 
-## Expanding the ESLint configuration
+## Швидкий старт
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+    npm install
+    npm run dev
+
+Застосунок відкриється в dev-режимі через Vite (зазвичай `http://localhost:5173`).
+
+## Структура проєкту
+
+    src/
+      App.jsx
+      PortfolioSiteMockup.jsx   # основний UI та контент портфоліо
+      index.css
+      assets/
+    public/
+    res/
